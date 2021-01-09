@@ -2,7 +2,7 @@ class CLI
 
 def start
     puts "Welcome to the Dead by Daylight Character Directory!"
-    puts "++++++++++++++++++++++++++++++++++++++++++++++++++++"
+    puts ""
     puts "
     ███████████████████████████████████
     ███████████████████████████████████
