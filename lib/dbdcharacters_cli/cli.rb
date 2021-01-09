@@ -83,8 +83,15 @@ end
 def invalid 
     puts ""
     puts "Uh oh... the entity is displeased. Please type 'yes' to continue or type 'exit' to leave the program!"
+    
+    selection = user_input
+    if selection == 'yes'
+        characters_list
+        
+    elsif selection == 'exit'
+        goodbye    
+    end
     puts ""
-    menu
 end
 
 
