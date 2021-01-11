@@ -11,6 +11,6 @@ def self.get_data
     characters_array.delete_at(39)
     characters_array.each do |character| 
         Character.new(character) 
-    end
+end
 end
 end
